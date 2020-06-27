@@ -1,0 +1,120 @@
+html {
+  margin: 16px;
+  background: #7591d1;
+}
+
+body {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  color: #96aee3;
+  border: 20px solid #96aee3;
+  box-shadow: 12px 12px #7591d1;
+  padding: 16px;
+  max-width: 90em;
+  max-height: 90em;
+  margin: auto;
+  background: #e4e9f5;
+}
+
+img {
+  height: 100px;
+  border-radius: 50%;
+  border: 5px solid #7591d1;
+}
+
+.instagram {
+  height: 30px;
+  border-radius: 4px;
+  border: 2px solid #e4e9f5;
+}
+
+.instagram:hover {
+  opacity: .7;
+}
+
+.linkedIn {
+  height: 30px;
+  border-radius: 4px;
+  border: 2px solid #e4e9f5;
+}
+
+.linkedIn:hover {
+  opacity: .7;
+}
+
+.facebook {
+  height: 30px;
+  border-radius: 4px;
+  border: 2px solid #e4e9f5;
+}
+
+.facebook:hover {
+  opacity: .7;
+}
+
+.gmail {
+  height: 30px;
+  border-radius: 4px;
+  border: 2px solid #e4e9f5;
+}
+
+.gmail:hover {
+  opacity: .7;
+}
+
+.athletic {
+  height: 30px;
+  border-radius: 4px;
+  border: 2px solid #e4e9f5;
+}
+
+.athletic:hover {
+  opacity: .7;
+}
+
+a:link {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #7591d1;
+}
+
+a:link:hover {
+  opacity: .7;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  background-color: #e4e9f5;
+  text-align: center;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: auto;
+  padding: 14px 16px;
+  transition: 0.3s;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #96aee3;
+}
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #7591d1;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
